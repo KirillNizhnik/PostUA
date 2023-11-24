@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="draftsState">
+      <draftsState>
+        <option name="requests">
+          <list>
+            <requestState>
+              <option name="auth">
+                <authState>
+                  <option name="type" value="BEARER" />
+                </authState>
+              </option>
+              <option name="id" value="69b58f03-df21-46cb-b2ae-90321bf5dab6" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="https://pokeapi.co/api/v2/pokemon/ditto" />
+            </requestState>
+          </list>
+        </option>
+      </draftsState>
+    </option>
+    <option name="id" value="369582ba-900d-4cf2-83bd-64ab3c9147f7" />
+  </component>
+</project>

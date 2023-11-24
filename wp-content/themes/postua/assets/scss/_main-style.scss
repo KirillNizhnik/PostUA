@@ -1,0 +1,328 @@
+.hero{
+  &-inner{
+    background-image: url("../images/hero.webp");
+    background-size: cover;
+    padding: 35px 0 40px 0;
+    background-position: center;
+    &__title{
+      font-size: 20px;
+      font-weight: 700;
+      width: 170px;
+      margin:  0 0 10px 0;
+    }
+    &__caption{
+      font-size: 10px;
+      font-weight: 400;
+      width: 151px;
+      margin:  0 0 12px 0;
+    }
+    &__btn{
+      width: 132px;
+    }
+
+  }
+}
+.news{
+  margin: -20px auto 0 auto;
+  z-index: 5;
+  position: relative;
+  width: 310px;
+  padding: 13px 27px 17px 27px;
+  border-radius: 25px;
+  background-color: $white;
+  box-shadow: 0 10px 62px 0 rgba(0, 0, 0, 0.54);
+  &-inner {
+    border-radius: 25px;
+    background-color: $yellow;
+    padding: 10px;
+
+    &-descr {
+      width: 200px;
+    }
+
+    &__btn {
+      margin: auto;
+      background-color: $white;
+      padding: 5px 20px;
+    }
+
+    &-price {
+      margin: 15px 0 5px 0;
+      text-align: center;
+      span {
+        margin: 0 7px;
+        font-size: 25px;
+        font-weight: 700;
+      }
+      b {
+        font-size: 30px;
+        font-weight: 700;
+        margin: 0 7px;
+      }
+    }
+  }
+}
+.news-inner__btn:hover{
+  background-color: $grey;
+}
+.about-us{
+  margin: 65px 0 4px 0;
+  &-inner{
+    &__title{
+      font-size: 30px;
+      font-weight: 700;
+      margin: 0 0 6px 0;
+    }
+    &__descr{
+      font-size: 10px;
+      font-weight: 400;
+      margin: 0 0 15px 0;
+      width: 206px;
+    }
+    &__btn{
+      padding: 10px 40px;
+      width: 140px;
+    }
+    &__img{
+      margin: 40px auto 0 auto;
+      width: 100%;
+    }
+  }
+}
+.service{
+  margin: 45px 0 40px 0;
+  &-inner__img{
+    width: 100%;
+    height: 209px;
+    object-fit: cover;
+  }
+  &-inner__list{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    &-item{
+      font-size: 10px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+    &-item > div >svg{
+      width: 15.913px;
+      height: 15.913px;
+    }
+  }
+}
+.delivery-stages {
+  &-inner{
+    &__title{
+      margin: 0 0 45px 0;
+    }
+    &__box{
+      display: flex;
+      gap: 25px;
+    }
+    &__img{
+      width: 214px;
+      height: 474px;
+      object-fit: cover;
+      display: none;
+    }
+    &__wrap{
+      display: flex;
+      gap: 20px;
+    }
+    &__decor{
+      display: flex;
+      flex-direction: column;
+      background-image: url("../images/line.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      gap: 55px;
+      &-1{
+        border-radius: 50px;
+        background: $yellow;
+        width: 64px;
+        height: 64px;
+        padding: 25px;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    &__item {
+      margin: 0 0 30px 0;
+
+    &-title{
+      font-size: 25px;
+      font-weight: 600;
+      margin: 0 0 12px 0
+    }
+    &-box {
+      margin: 0 0 0 17px;
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+      &-li{
+        font-size: 10px;
+        font-weight: 500;
+      }
+    }}
+  }
+}
+
+.calculator{
+  background-color: $grey;
+  padding: 0;
+  &-inner{
+    margin: 20px 0 30px 0;
+  }
+}
+.container-calc-title{
+  padding: 30px 0 0 0;
+}
+.calculator__inner-maps{
+  margin: 100px 0 0 0;
+  width: 100%;
+}
+.calculator__inner-form-label{
+  margin: 0 0 8px 0;
+
+}
+.calculator__inner-form-input{
+  border-radius: 50px;
+  background: $white;
+  width: 100%;
+  padding: 10px 25px;
+  border: 1px solid $white;
+  outline: none;
+  margin: 0 0 10px 0;
+  display: block;
+}
+.calculator__inner-form-input:focus-visible {
+  border: 1px solid $yellow;
+}
+.calculator__inner-form-btn {
+  width: 100%;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 30px 0 0 0;
+}
+
+.collection-points-inner-btn {
+  background-color: transparent;
+  padding: 0;
+}
+.collection-points-inner-btns {
+  display: flex;
+  gap: 15px;
+  margin: 15px 0 0 0;
+}
+.collection-points{
+  padding: 42px 0 30px 0;
+  margin: 55px 0 0 0;
+  background-color: $yellow;
+
+  &__list {
+    display: flex;
+    margin: 50px 0 0 0;
+    &-item{
+      padding: 45px 45px 45px 25px;
+      border-radius: 25px;
+      background-color: $white;
+      &-title{
+        font-size: 15px;
+        font-weight: 500;
+      }
+    }
+  }
+
+}
+.collection-points-swiper {
+  width: 100%;
+}
+
+.message {
+  margin: 55px 0 100px 0;
+}
+.message-form-input{
+  border: 3px solid $yellow;
+}
+.message-form-input:focus-visible {
+  border: 3px solid $black;
+}
+.message-form-textarea{
+  border-radius: 28px;
+  border: 3px solid $yellow;
+  height: 97px;
+  resize: none;
+}
+.message-inner__img{
+  display: none;
+}
+
+.footer{
+  background-color: $yellow;
+  padding: 80px 0 100px 0;
+  &-inner{
+    &__content-list-item > a {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+   &__content-list {
+      margin: 20px 0 0 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+}
+
+.about{
+  margin: 60px 0;
+  &-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+  }
+  &-inner{
+    &__img{
+      width: 145px;
+      height: 81px;
+      object-fit: cover;
+      float: left;
+      margin: 0 10px 10px 0;
+    }
+    &__img-2{
+      width: 150px;
+      height: 230px;
+      float: right;
+      margin: 10px 0  0 10px !important;
+
+    }
+  }
+}
+
+.form{
+  margin: 60px 0 90px 0;
+  &-inner-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+  }
+  &-inner-wrap{
+     margin: 0 0 40px 0;
+  }
+}
+
+.container-calc {
+  flex-direction: column;
+}
+
+div#map {
+  height: 580px;
+}

@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PostUA</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+</head>
+<body class="body">
+<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <a href="" class="header-inner__img">
+                <img src="images/logo.webp" alt="" class="header-inner__link-logo">
+            </a>
+            <ul class="header-inner__list">
+                <li class="header-inner__list-item"><a href="">Про нас</a></li>
+                <li class="header-inner__list-item"><a href=""> Наші послуги</a></li>
+                <li class="header-inner__list-item"><a href=""> Етапи доставки</a></li>
+                <li class="header-inner__list-item"><a href="">Калькулятор</a></li>
+                <li class="header-inner__list-item"><a href=""> Точки збору</a></li>
+            </ul>
+
+            <a class="header-inner__btn-tel" href="tel:00000000">
+              099 99 999 99
+            </a>
+            <div class="header-inner__btns-right">
+            <a class="header-navigation__list-item-link link " href=" ">
+                 EN
+            </a>
+            <button class="header-inner__btn js-open-menu" data-modal-open="">
+                <svg width="44" height="28" viewBox="0 0 44 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 2L42 2" stroke="#A4A4A4" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M2 14H42" stroke="#A4A4A4" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M2 26H42" stroke="#A4A4A4" stroke-width="4" stroke-linecap="round"/>
+                </svg>
+            </button>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="mobile-menu js-menu-container is-hidden" data-modal="">
+    <div class="mobile-menu-container">
+        <button class="mobile-menu-inner__btn" data-modal-close="">
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line y1="-1" x2="17.569" y2="-1" transform="matrix(0.717521 0.696537 -0.575454 0.817834 0 2.35205)" stroke="black" stroke-width="2"/>
+                <line y1="-1" x2="17.5323" y2="-1" transform="matrix(-0.726665 0.686991 -0.565271 -0.824906 13 1)" stroke="black" stroke-width="2"/>
+            </svg>
+        </button>
+        <ul class="mobile-menu__list list ">
+            <li class="mobile-menu__item ">
+                <a class="mobile-menu__item-link link " href="">Про нас</a>
+            </li>
+            <li class="mobile-menu__item ">
+                <a class="mobile-menu__item-link link " href="">Наші послуги</a>
+            </li>
+            <li class="mobile-menu__item ">
+                <a class="mobile-menu__item-link link " href="">Етапи доставки</a>
+            </li>
+            <li class="mobile-menu__item ">
+                <a class="mobile-menu__item-link link " href="">Калькулятор</a>
+            </li>
+            <li class="mobile-menu__item ">
+                <a class="mobile-menu__item-link link " href="">Точки збору</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<main>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-inner">
+                <h1 class="hero-inner__title">З нами, відстань стає ближчою</h1>
+                <p class="hero-inner__caption">Незалежно від розміру чи маршруту, ми гарантуємо безпечне та своєчасне доставлення. Покладайте нас на вірну руку для всіх ваших посилок.</p>
+                <a class="hero-inner__btn button" href="">Відправити посилку</a>
+            </div>
+        </div>
+    </section>
+    <section class="news">
+        <div>
+        <div class="container-news swiper swiper-container" id="container-news">
+            <div class="container-news swiper-wrapper ">
+                <div class="news-inner swiper-slide">
+                    <h2 class="hero-inner__title">Сертифікат</h2>
+                    <p class="news-inner-descr hero-inner__caption">Вигідна пропозиція, яку ми доставимо прямо до ваших рук. Зекономте та насолоджуйтесь вибором, завдяки нашій швидкій доставці!</p>
+                    <div class="news-inner-price">на<span>100</span>євро за<b>85</b>євро</div>
+                    <button class="news-inner__btn button">Купити</button>
+                </div>
+                <div class="news-inner swiper-slide">
+                    <h2 class="hero-inner__title">Сертифікат</h2>
+                    <p class="news-inner-descr hero-inner__caption">Вигідна пропозиція, яку ми доставимо прямо до ваших рук. Зекономте та насолоджуйтесь вибором, завдяки нашій швидкій доставці!</p>
+                    <div class="news-inner-price">на<span>100</span>євро за<b>85</b>євро</div>
+                    <button class="news-inner__btn button">Купити</button>
+                </div>
+            </div></div>
+                <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="about-us">
+        <div class="container">
+            <div class="about-us-inner">
+                <div>
+                <h2 class="about-us-inner__title">Про нас</h2>
+                <p class="about-us-inner__descr">
+                    PostUA Service - це 10-ти річна репутація та надійність у Ірландії. Post UA service
+                    поштово-логістичний оператор з доставки усіх типів відправлень в будь-яку точку України.
+                    Досвід роботи в Ірландії 10 років.
+                </p>
+                <a href="" class="about-us-inner__btn button">
+                    Детальніше
+                </a>
+            </div>
+                <img src="images/about-us.webp" alt="" class="about-us-inner__img">
+            </div>
+        </div>
+    </section>
+    <section class="service">
+        <div class="container">
+            <div class="about-us-inner service-inner">
+                <div>
+                    <h2 class="about-us-inner__title">Наші послуги</h2>
+                    <ul class="service-inner__list">
+                        <li class="service-inner__list-item">
+                            <div>
+                                <svg  width="45px" height="45px">
+                                    <use  href="images/icons.svg#icon-done"></use>
+                                </svg>
+                            </div>
+
+                            Доставлення документів</li>
+                        <li class="service-inner__list-item">
+                            <div>
+                                <svg  width="45px" height="45px">
+                                    <use  href="images/icons.svg#icon-done"></use>
+                                </svg>
+                </div>
+                            Доставлення медикаментів та товарів першої допомоги
+                        </li>
+                        <li class="service-inner__list-item">
+                            <div>
+                                <svg  width="45px" height="45px">
+                                    <use  href="images/icons.svg#icon-done"></use>
+                                </svg>
+                            </div>
+
+                            Доставлення продуктів харчування
+                        </li>
+                        <li class="service-inner__list-item">
+                            <div>
+                                <svg  width="45px" height="45px">
+                                    <use  href="images/icons.svg#icon-done"></use>
+                                </svg>
+                            </div>
+                            Доставлення інших товарів
+                        </li>
+                    </ul>
+                </div>
+                <img src="images/service.webp" alt="" class="about-us-inner__img service-inner__img">
+            </div>
+        </div>
+    </section>
+    <section class="delivery-stages">
+        <div class="container">
+            <div class="delivery-stages-inner">
+                <h2 class="about-us-inner__title delivery-stages-inner__title">Етапи доставки</h2>
+
+                <div class="delivery-stages-inner__box">
+                    <img class="delivery-stages-inner__img" src="images/delivery.webp" alt="">
+
+               <div class="delivery-stages-inner__wrap">
+                    <div class="delivery-stages-inner__decor">
+                        <div class="delivery-stages-inner__decor-1">1</div>
+                        <div class="delivery-stages-inner__decor-1">2</div>
+                        <div class="delivery-stages-inner__decor-1">3</div>
+                    </div>
+                    <div>
+                        <div class="delivery-stages-inner__item">
+                            <h3 class="delivery-stages-inner__item-title">Оформлення</h3>
+                            <ul class="delivery-stages-inner__item-box">
+                                <li class="delivery-stages-inner__item-box-li"><a href="">Заповнююте форму на сайті</a></li>
+                                <li class="delivery-stages-inner__item-box-li">Заповнюйте форму на сайті</li>
+                                <li class="delivery-stages-inner__item-box-li">Заповнюйте форму на сайті</li>
+                            </ul>
+                        </div>
+                        <div class="delivery-stages-inner__item">
+                            <h3 class="delivery-stages-inner__item-title">Відправка</h3>
+                            <ul class="delivery-stages-inner__item-box">
+                                <li class="delivery-stages-inner__item-box-li">Заповнюйте форму на сайті</li>
+                                <li class="delivery-stages-inner__item-box-li">Заповнюйте форму на сайті</li>
+                                <li class="delivery-stages-inner__item-box-li">Заповнюйте форму на сайті</li>
+                            </ul>
+                        </div>
+                        <div class="delivery-stages-inner__item">
+                            <h3 class="delivery-stages-inner__item-title">Отримання</h3>
+                            <ul class="delivery-stages-inner__item-box">
+                                <li class="delivery-stages-inner__item-box-li">Заповнюйте форму на сайті</li>
+                                <li class="delivery-stages-inner__item-box-li">Заповнюйте форму на сайті</li>
+                                <li class="delivery-stages-inner__item-box-li">Заповнюйте форму на сайті</li>
+                            </ul>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="calculator">
+        <div class="container container-calc">
+            <div class="calculator-wrap">
+                  <div class="container-calc-title">
+                <h2 class="about-us-inner__title">Калькулятор</h2>
+                <p>Приблизна вартість</p>
+            </div>
+                  <div class="calculator-inner">
+                <form class="calculator__inner-form" action="" method="post" id="deliveryForm">
+                    <label class="calculator__inner-form-label" for="#">Звідки</label><br>
+
+                    <select class="calculator__inner-form-input select-with-arrow" id="departureCountry" name="departureCountry">
+                        <option value="Ірландія">Ірландія</option>
+                        <option value="Україна">Україна</option>
+                    </select>
+
+                    <label class="calculator__inner-form-label" for="#">Куди</label><br>
+                    <select class="calculator__inner-form-input" id="destinationCountry" name="destinationCountry">
+                        <option value="Україна">Україна</option>
+                        <option value="Ірландія">Ірландія</option>
+
+                    </select>
+
+                    <label class="calculator__inner-form-label" for="#">Кількість місць</label><br>
+                    <div class="calculator__inner-form-input" type="number" id="numberOfItems">1</div>
+
+<!--                    <input class="calculator__inner-form-input" type="number" id="numberOfItems" name="Кількість місць" min="1" value="1"  max="1">-->
+
+                    <label for="length">Довжина, см</label>
+                    <input class="calculator__inner-form-input" type="number" id="length" name="length" min="1" value=""  required>
+
+                    <label for="width">Ширина, см</label>
+                    <input class="calculator__inner-form-input" type="number" id="width" name="width" min="1" value=""    required>
+
+                    <label for="height">Висота, см</label>
+                    <input class="calculator__inner-form-input" type="number" id="height" name="height"  min="1" value=""   required>
+
+                    <label class="calculator__inner-form-label" for="#">Вага, кг</label><br>
+                    <input class="calculator__inner-form-input" type="number" id="weight" name="вага" min="1" value=""    required>
+
+                    <div id="additionalItems"></div>
+                    <button class="button" id="addPlace">Додати місце +</button><br>
+
+                    <div id="result"></div>
+
+                    <button class="calculator__inner-form-btn button" type="submit" value="Розрахувати">Розрахувати </button>
+                </form>
+            </div>
+            </div>
+            <div class="calculator__inner-maps" id="map"></div>
+
+
+        </div>
+
+    </section>
+<!--    <section class="collection-points">-->
+<!--        <div class="container">-->
+<!--            <div class="collection-points-title">-->
+<!--                <h2 class="about-us-inner__title">Точки збору</h2>-->
+<!--                <div class="collection-points-inner-btns">-->
+<!--                    <button class="collection-points-inner-btn custom-button-prev">-->
+<!--                        <svg  width="80px" height="80px">-->
+<!--                            <use  href="images/icons.svg#icon-arrow-left"></use>-->
+<!--                        </svg>-->
+<!--                    </button>-->
+<!--                    <button class="collection-points-inner-btn custom-button-next">-->
+<!--                        <svg  width="80px" height="80px">-->
+<!--                            <use  href="images/icons.svg#icon-arrow-right"></use>-->
+<!--                        </svg>-->
+<!--                    </button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="collection-points-slider swiper">-->
+<!--                <ul class="collection-points__list swiper-wrapper collection-points-swiper">-->
+<!--                <li class="collection-points__list-item swiper-slide">-->
+<!--                    <div class="collection-points__list-item-title">Парковка Blancharsdtown Shopping Centre</div>-->
+<!--                </li>-->
+<!--                <li class="collection-points__list-item swiper-slide">-->
+<!--                    <div class="collection-points__list-item-title">Donabate Shoreline Hotel</div>-->
+<!--                </li>-->
+<!--                <li class="collection-points__list-item swiper-slide">-->
+<!--                <div class="collection-points__list-item-title">Carnegie Court Hotel</div>-->
+<!--                </li>-->
+<!--                    <li class="collection-points__list-item swiper-slide">-->
+<!--                    <div class="collection-points__list-item-title">Carnegie Court Hotel</div>-->
+<!--                </li>-->
+<!--                    <li class="collection-points__list-item swiper-slide">-->
+<!--                    <div class="collection-points__list-item-title">Ukrainian Community Centre, D06XE18</div>-->
+<!--                </li>-->
+<!--                    <li class="collection-points__list-item swiper-slide">-->
+<!--                    <div class="collection-points__list-item-title">Bray Royal Hotel</div>-->
+<!--                </li>-->
+<!--                    <li class="collection-points__list-item swiper-slide">-->
+<!--                        <div class="collection-points__list-item-title">Clayton hotel Leopardstown</div>-->
+<!--                    </li>-->
+<!--                    <li class="collection-points__list-item swiper-slide">-->
+<!--                        <div class="collection-points__list-item-title">Готель City West</div>-->
+<!--                    </li>-->
+<!--                    <li class="collection-points__list-item swiper-slide">-->
+<!--                    <div class="collection-points__list-item-title">Готель City Ark</div>-->
+<!--                </li>-->
+<!--                    <li class="collection-points__list-item swiper-slide">-->
+<!--                        <div class="collection-points__list-item-title">Clayton Hotel Liffi Valley</div>-->
+<!--                    </li>-->
+<!--                    <li class="collection-points__list-item swiper-slide">-->
+<!--                        <div class="collection-points__list-item-title">Виїзд кур'єра на адресу (залиште свою в коментарі при заповненні форми)</div>-->
+<!--                    </li>-->
+<!--                    <li class="collection-points__list-item swiper-slide">-->
+<!--                        <div class="collection-points__list-item-title">Дублін 8 GEC</div>-->
+<!--                    </li>-->
+<!--            </ul>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+    <section class="message">
+        <div class="container">
+            <div class="message-inner">
+                <div>
+                    <h2 class="about-us-inner__title message__title">Залишились питання?</h2>
+                    <form class="calculator__inner-form" action="" method="post">
+                        <label class="calculator__inner-form-label message-form-label" for="#">Ім’я</label><br>
+                        <input class="calculator__inner-form-input message-form-input" type="text" id="#" name="Ім’я" required>
+
+                        <label class="calculator__inner-form-label message-form-label"  for="#">Телефон</label><br>
+                        <input class="calculator__inner-form-input message-form-input" type="tel" id="#" name="Телефон" required>
+
+                        <label class="calculator__inner-form-label message-form-label" for="#">Пошта</label><br>
+                        <input class="calculator__inner-form-input message-form-input" type="email" id="#" name="Пошта" required>
+
+                        <label class="calculator__inner-form-label message-form-label" for="#">Повідомлення</label><br>
+                        <textarea class="calculator__inner-form-input message-form-input message-form-textarea" type="text" id="#" name="Повідомлення" required></textarea>
+                        <button class="calculator__inner-form-btn message-form-btn button" type="submit" value="Розрахувати">Надіслати</button>
+                    </form>
+                </div>
+                <img src="images/message.webp" alt="" class="message-inner__img">
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="">
+            <h3 class="footer-inner__content-title title">Contacts</h3>
+            <ul class="footer-inner__content-list">
+                <li class="footer-inner__content-list-item">
+                            <a class="footer-inner__content-link" href="https://maps.app.goo.gl/KCGpSeUssDJG5Uoy7" target="_blank">
+                                <svg  width="25px" height="25px">
+                                    <use  href="images/icons.svg#icon-telephone"></use>
+                                </svg>
+                                <span>00 000 0000</span>
+                            </a>
+                </li>
+                <li class="footer-inner__content-list-item">
+                    <a class="footer-inner__content-link" href="https://maps.app.goo.gl/KCGpSeUssDJG5Uoy7" target="_blank">
+                        <svg  width="25px" height="25px">
+                            <use  href="images/icons.svg#icon-mail"></use>
+                        </svg>
+                        <span>post@gmail.com</span>
+                    </a>
+                </li>
+                <li class="footer-inner__content-list-item">
+                    <a class="footer-inner__content-link" href="mailto:eco.ie.happy.cleaning@gmail.com" target="_blank">
+                        <svg  width="25px" height="25px">
+                            <use  href="images/icons.svg#icon-telegram"></use>
+                        </svg>
+                        <span class="">telegram</span>
+                    </a>
+                </li>
+                <li class="footer-inner__content-list-item">
+                    <a class="footer-inner__content-link">
+                        <svg  width="25px" height="25px">
+                            <use  href="images/icons.svg#icon-clock"></use>
+                        </svg>
+                        <span class="">8:00 am - 20:00 pm</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script src="js/map.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJ5ewdsCKSkgkJ1fb0rgPbtsnVTMlFD40&callback=initMap&language=uk" async defer></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script type="module" src="js/slider-2.js" ></script>
+
+
+<script type="module" src="js/slider.js" ></script>
+
+<script src="js/main.js"></script>
+<script src="js/calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@media screen and (min-width: 768px) {
+  .header{
+    &-inner{
+      padding: 12px 0;
+      &__btn-tel{
+        font-size: 15px;
+        padding: 8px 26px;
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 1240px) {
+  .header{
+    &-inner{
+      padding: 4px 0;
+      &__link-logo{
+        width: 92px;
+        height: 92px;
+      }
+      &__list{
+        display: flex;
+        gap: 30px;
+      }
+      &__btn{
+       display: none;
+      }
+      &__btn-tel{
+        font-size: 20px;
+        padding: 20px 30px;
+      }
+    }
+  }
+}
